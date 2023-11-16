@@ -1,0 +1,8 @@
+AccountLimit: # limit for each account
+  Duration: 60s
+  Value: 10 # request count
+  LimitType: 0 # {0: sliding window, 1: fixed window}
+EndpointLimit: # limit for each endpoints
+  Duration: 60s
+  Value: 11
+  LimitType: 0
