@@ -1,7 +1,4 @@
 # Rate limiter
-
-According to the assignment description, I assume our goal is to restrict requests for an HTTP API server. In this case, I am using Gin as the framework to simulate the API server.
-
 There are various methods to implement a rate limiter. Here, I have devised two solutions. First, set up a rate-limiting middleware for routing. Second, establish a proxy, such as Nginx.
 
 I have only implemented a middleware, as configuring both solutions would be resource-intensive for me. Implementing a middleware can be more challenging than configuring plugins like Nginx, Envoy, and Kong, so I prefer to take on the more difficult task.
